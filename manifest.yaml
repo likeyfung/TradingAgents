@@ -1,0 +1,9 @@
+name: trading-agents
+version: 0.1.0
+description: Trading tools and agent strategies for Dify
+
+plugins:
+  - type: tool
+    entry: tools/my_trading_tool.py
+    name: MyTradingTool
+    description: A sample trading tool for Dify
